@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Valorant";
+    src: url('../fonts/Valorant-Font.ttf') format('truetype');
+}
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #0F1923;
+    --cor2: #1C7293;
+    --cor3: #595F72;
+    --cor4: #FF4655;
+    --cor5: #FFFFFF;
+
+    --fontvava: 'Valorant', 'cursive';
+    --fontdefault: 'Arial', 'sans-serif';
+}
+
+body {
+    min-width: 800px;
+    max-width: 1600px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 3;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.44);
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.44);
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.44);
+    text-align: center;
+}
+
+.trailer h2 {
+    color: var(--cor2);
+    font-family: var(--fontvava);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.301);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-top: 20px;
+}
