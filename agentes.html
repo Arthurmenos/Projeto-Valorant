@@ -7,135 +7,47 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="shortcut icon" href="assets/images/valorant.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/styles/agentes.css">
+    <script src="assets/scripts/onmouse.js"></script>
     <title>Agentes</title>
 </head>
 <body>
     <header>
-        <a href="index.html" rel="prev" target="_self">
+        <a href="index.html">
             <h1>Projeto Valorant</h1>
         </a>
+        <nav>
+            <a href="#">Agentes</a>
+            <a href="#">Mapas</a>
+            <a href="#">Patches</a>
+            <a href="#">Sobre</a>
+        </nav>
     </header>
     
     <main>
-        <h1 class="title">Classes</h1>
-        
-        <div id="duelistas" class="agentes">
-            <h2> <img src="assets/images/portrait/Duelistas.webp"> Duelistas</h2>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Jett.webp" alt="Jett">
-                    <p>Jett</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Neon.webp" alt="Neon">
-                    <p>Neon</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Phoenix.webp" alt="Phoenix">
-                    <p>Phoenix</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Raze.webp" alt="Raze">
-                    <p>Raze</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Reyna.webp" alt="Reyna">
-                    <p>Reyna</p>
-                </div>
-                
-                <div class="char">
-                    <img src="assets/images/portrait/Yoru.webp" alt="Yoru">
-                    <p>Yoru</p>
-                </div>
-        </div>
-
-        <br>
-
-        <div id="controladores" class="agentes">
-            <h2><img src="assets/images/portrait/Controladores.webp" alt="Controladores"> Controladores</h2>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Astra.webp" alt="Astra">
-                    <p>Astra</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Brimstone.webp" alt="Brimstone">
-                    <p>Brimstone</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Omen.webp" alt="Omen">
-                    <p>Omen</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Viper.webp" alt="Viper">
-                    <p>Viper</p>
-                </div>
-        </div>
-
-        <br>
-
-        <div id="iniciadores" class="agentes">
-            <h2><img src="assets/images/portrait/Iniciadores.webp" alt="Iniciadores"> Iniciadores</h2>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Breach.webp" alt="Breach">
-                    <p>Breach</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Fade.webp" alt="Fade">
-                    <p>Fade</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Kayo.webp" alt="Kay/O">
-                    <p>KAY/O</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Skye.webp" alt="Skye">
-                    <p>Skye</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Sova.webp" alt="Sova">
-                    <p>Sova</p>
-                </div>
-            
-        </div>
-
-        <br>
-
-        <div id="sentinelas" class="agentes">
-            <h2><img src="assets/images/portrait/Sentinelas.webp" alt="Sentinelas"> Sentinelas</h2>
-                <div class="char">
-                    <img src="assets/images/portrait/Sage.webp" alt="Sage">
-                    <p>Sage</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Killjoy.webp" alt="Killjoy">
-                    <p>Killjoy</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Cypher.webp" alt="Cypher">
-                    <p>Chyper</p>
-                </div>
-
-                <div class="char">
-                    <img src="assets/images/portrait/Chamber.webp" alt="Chamber">
-                    <p>Chamber</p>
-                </div>
-            
-        </div>
+        <section class="agentes">
+            <div class="char"> <img id="astra" onmouseenter="MEnterAstra()" onmouseout="MOutAstra()" src="assets/images/portrait/Astra.webp" alt="Astra"> <p>Astra</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Brimstone.webp" alt="Brimstone"> <p>Brimstone</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Breach.webp" alt="Breach"> <p>Breach</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Chamber.webp" alt="Chamber"> <p>Chamber</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Cypher.webp" alt="Cypher"> <p>Chyper</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Fade.webp" alt="Fade"> <p>Fade</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Jett.webp" alt="Jett"> <p>Jett</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Kayo.webp" alt="Kay/O"> <p>KAY/O</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Killjoy.webp" alt="Killjoy"> <p>Killjoy</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Neon.webp" alt="Neon"> <p>Neon</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Omen.webp" alt="Omen"> <p>Omen</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Phoenix.webp" alt="Phoenix"> <p>Phoenix</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Raze.webp" alt="Raze"> <p>Raze</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Reyna.webp" alt="Reyna"> <p>Reyna</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Sage.webp" alt="Sage"> <p>Sage</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Skye.webp" alt="Skye"> <p>Skye</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Sova.webp" alt="Sova"> <p>Sova</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Viper.webp" alt="Viper"> <p>Viper</p> </div>
+            <div class="char"> <img src="assets/images/portrait/Yoru.webp" alt="Yoru"> <p>Yoru</p> </div>
+        </section>
     </main>
+    <footer>
+        <p>Projeto Valorant é um site sem fins lucrativos criado por @Arthurmenos para treino e uso em portfólio</p>
+    </footer>
 </body>
 </html>

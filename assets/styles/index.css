@@ -25,13 +25,15 @@
 body {
     min-width: 800px;
     max-width: 1600px;
+    height: 100vh;
 }
 
 main {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-grow: 3;
+    margin: auto;
+    padding: auto;
 }
 
 .news {
@@ -68,12 +70,4 @@ main {
     color: var(--cor2);
     font-family: var(--fontvava);
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.301);
-}
-
-footer {
-    text-align: center;
-    color: white;
-    font-size: 1.1em;
-    padding: 5px;
-    margin-top: 20px;
 }

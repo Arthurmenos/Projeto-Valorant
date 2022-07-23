@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Valorant";
+    src: url('../fonts/Valorant-Font.ttf') format('truetype');
+}
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #0F1923;
+    --cor2: #1C7293;
+    --cor3: #595F72;
+    --cor4: #FF4655;
+    --cor5: #FFFFFF;
+
+    --fontvava: 'Valorant', 'cursive';
+    --fontdefault: 'Arial', 'sans-serif';
+}
+
+main {
+    background-color: transparent;
+    margin: auto;
+    width: 1000px;
+    align-items: center;
+}
+
+title {
+    text-align: center;
+}
+
+.agentes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.agentes p {
+    display: none;
+}
+
+.char img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+}
+
+
